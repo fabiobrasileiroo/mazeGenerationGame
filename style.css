@@ -146,8 +146,12 @@ select:focus {
     color: black;
 }
 /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 900px){
+    body {
+        padding: 10px;
+    }
+}
 @media only screen and (max-width: 400px) {
-
     input,
     select {
         width: 120px;
